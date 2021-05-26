@@ -6,4 +6,4 @@ cp /cert/priv.pem /
 chmod 400 /priv.pem
 
 # Hand off to the CMD
-exec "$@"
+run "$@"

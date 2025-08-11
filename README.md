@@ -3,7 +3,7 @@ Will let you tunnel through the IoT device.
 
 ## Build
 ```bash
-gcloud builds submit . --config=cloudbuild.yaml --timeout=3600
+gcloud --project=teknoir-mgmt builds submit . --config=cloudbuild.yaml --timeout=3600
 ```
 
 ## Legacy build and publish docker images
